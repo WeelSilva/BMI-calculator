@@ -40,13 +40,13 @@ button {
 .container {
   height: 100vh;
   display: grid;
-  place-items: center;
+  place-content: center;
 }
 
 .card {
   padding: 4.8rem 6.4rem 6.4rem;
   background-color: white;
-  max-width: min(43rem, 90%);
+  max-width: 42.8rem;
   margin-inline: auto;
 
   box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
@@ -71,6 +71,10 @@ form label {
   display: block;
 }
 
+form  {
+    width: 30rem;
+}
+
 form input {
   width: 100%;
   border: 1px solid var(--bd-input);
@@ -91,7 +95,7 @@ form input::placeholder {
   margin-top: 1.6rem;
 }
 
-button {
+form button {
   margin-top: 3.2rem;
   padding: 1.6rem;
   width: 100%;
@@ -115,4 +119,43 @@ button {
 
 button:hover {
   background: var(--bg-button-hover);
+}
+
+/* modal */
+.modal-wrapper.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-wrapper {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+
+  display: grid;
+  place-content: center;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  position: relative;
+}
+
+.modal button {
+  background: none;
+  border: none;
+
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  cursor: pointer;
+
+  transition: transform .3s;
+}
+
+.modal button:hover {
+  transform: scale(1.1);
 }
