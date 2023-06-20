@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h2 align="center">Calculador de IMC</h2>
+  <h2 align="center">BMI Calculator</h2>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 ### Demo Screeshots
 
-![Calculador de IMC](.github/preview.png "Desktop Demo")
+![BMI Calculator](.github/preview.png "Desktop Demo")
 
 ### About
 
