@@ -27,13 +27,13 @@ To run **BMI Calculator** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/denilsonbaptista/calculador-de-IMC.git
+sudo git clone https://github.com/denilsonbaptista/BMI-calculator.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/denilsonbaptista/calculador-de-IMC.git
+git clone https://github.com/denilsonbaptista/BMI-calculator.git
 ```
 
 ### Contact
